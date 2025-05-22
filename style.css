@@ -1,0 +1,143 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #141414;
+    color: white;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #000;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
+  
+  .logo {
+    color: #e50914;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.1rem;
+  }
+  
+  .nav-links a.active {
+    font-weight: bold;
+  }
+  
+  .profile img {
+    size: 10cap;
+    border-radius: 50%;
+  }
+  
+  /* Hero Banner */
+  .hero {
+    padding: 150px 50px;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    max-width: 500px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  
+  .hero-buttons button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .play-btn {
+    background-color: white;
+    color: black;
+  }
+  
+  .info-btn {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: white;
+  }
+  
+  /* Movie Section */
+  .movie-section {
+    padding: 30px;
+  }
+  
+  .movie-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .movie-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 15px;
+  }
+  
+  .movie-card {
+    min-width: 300px;
+    background: #222;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  
+  .movie-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .movie-card h3 {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .movie-card p {
+    padding: 0 10px 10px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .movie-card button {
+    display: block;
+    width: 90%;
+    margin: 10px auto;
+    padding: 8px;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background: #000;
+    margin-top: 30px;
+  }
